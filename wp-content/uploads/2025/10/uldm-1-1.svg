@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="80" viewBox="0 0 340 80" role="img" aria-label="UnityLink logo dark mode transparent background">
+  <circle cx="53" cy="40" r="30" stroke="#fff" stroke-width="4" fill="none"></circle>
+  <circle cx="53" cy="20" r="6" fill="#FF6F00"></circle>
+  <path d="M45 24 Q53 36 61 24" fill="#FF6F00"></path>
+  <circle cx="41" cy="50" r="6" fill="#FF6F00"></circle>
+  <path d="M35 54 Q41 66 47 54" fill="#FF6F00"></path>
+  <circle cx="65" cy="50" r="6" fill="#FF6F00"></circle>
+  <path d="M59 54 Q65 66 71 54" fill="#FF6F00"></path>
+  <text x="98" y="50" font-family="'Lexend', sans-serif" font-weight="500" font-size="45" fill="#fff" dominant-baseline="middle">
+    UnityLink
+  </text>
+</svg>

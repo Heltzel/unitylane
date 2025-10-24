@@ -1,0 +1,607 @@
+# Translation of Plugins - Instant Images &#8211; One-click Image Uploads from Unsplash, Openverse, Pixabay, Pexels, and Giphy - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Instant Images &#8211; One-click Image Uploads from Unsplash, Openverse, Pixabay, Pexels, and Giphy - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-03-31 15:30:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Instant Images &#8211; One-click Image Uploads from Unsplash, Openverse, Pixabay, Pexels, and Giphy - Stable (latest release)\n"
+
+#: instant-images.php:614
+msgid "Height"
+msgstr "Hoogte"
+
+#: instant-images.php:613
+msgid "Width"
+msgstr "Breedte"
+
+#: instant-images.php:611
+msgid "Label"
+msgstr "Label"
+
+#: instant-images.php:412
+msgid "Invalid API key - enter a new API Key and try again."
+msgstr "Ongeldige API-sleutel - Voer een nieuwe API-sleutel in en probeer het opnieuw."
+
+#: instant-images.php:367
+msgid "Access to gifs from Giphy requires a valid API key. API keys are available for free, just sign up for an account at Giphy and choose the \"Select API\" option when creating the key"
+msgstr "Toegang tot gifs van Giphy vereist een geldige API-sleutel. API-sleutels zijn gratis beschikbaar, meld je gewoon aan voor een account bij Giphy en kies de optie \"API selecteren\" bij het aanmaken van de sleutel"
+
+#: admin/includes/settings/image-sizes.php:73
+msgid "Image sizes listed below are currently enabled on your site."
+msgstr "De onderstaande vermeldingen van de grootte zijn nu beschikbaar op je site."
+
+#: admin/includes/settings/image-sizes.php:72
+msgid "Current Image Sizes"
+msgstr "Huidige grootte afbeelding"
+
+#: admin/includes/settings/image-sizes.php:55
+msgid "Yes"
+msgstr "Ja"
+
+#: admin/includes/settings/image-sizes.php:54
+msgid "No"
+msgstr "Nee"
+
+#: admin/includes/settings/image-sizes.php:52 instant-images.php:615
+msgid "Crop"
+msgstr "Bijsnijden"
+
+#: admin/includes/settings/image-sizes.php:48
+msgid "Height (px)"
+msgstr "Hoogte (px)"
+
+#: admin/includes/settings/image-sizes.php:44
+msgid "Width (px)"
+msgstr "Breedte (px)"
+
+#: admin/includes/settings/image-sizes.php:40 instant-images.php:612
+msgid "Name"
+msgstr "Naam"
+
+#: admin/includes/settings/image-sizes.php:33
+msgid "Upgrade Now"
+msgstr "Upgrade nu"
+
+#. translators: Add-on URL.
+#: admin/includes/settings/image-sizes.php:29
+msgid "Adding custom image sizes is available with the %1$s<strong>Extended add-on</strong>%2$s."
+msgstr "Het toevoegen van aangepaste grootte van afbeeldingen is beschikbaar met de %1$s<strong>Extended add-on</strong>%2$s."
+
+#: admin/includes/settings/image-sizes.php:21
+msgid "Enter a name, width, and height for your custom image size."
+msgstr "Voer een naam, breedte en hoogte in voor je aangepaste afbeelding grootte."
+
+#: admin/includes/settings/image-sizes.php:20
+#: admin/includes/settings/image-sizes.php:61
+msgid "Add Image Size"
+msgstr "Afbeelding grootte toevoegen"
+
+#: admin/includes/settings/image-sizes.php:15
+msgid "Create, manage, and view your active WordPress image sizes."
+msgstr "Creëer, beheer en bekijk je actieve WordPress afbeelding grootte."
+
+#: admin/includes/settings/image-sizes.php:14
+msgid "Image Sizes"
+msgstr "Afbeelding groottes"
+
+#: build/js/editor/block/block.json
+msgctxt "block keyword"
+msgid "Pexels"
+msgstr "Pexels"
+
+#: build/js/editor/block/block.json
+msgctxt "block keyword"
+msgid "Pixabay"
+msgstr "Pixabay"
+
+#: build/js/editor/block/block.json
+msgctxt "block keyword"
+msgid "Openverse"
+msgstr "Openverse"
+
+#: build/js/editor/block/block.json
+msgctxt "block keyword"
+msgid "Unsplash"
+msgstr "Unsplash"
+
+#: build/js/editor/block/block.json
+msgctxt "block keyword"
+msgid "stock photos"
+msgstr "stock foto's"
+
+#: build/js/editor/block/block.json
+msgctxt "block keyword"
+msgid "photo"
+msgstr "foto"
+
+#: build/js/editor/block/block.json
+msgctxt "block keyword"
+msgid "instant images"
+msgstr "instant images"
+
+#: build/js/editor/block/block.json
+msgctxt "block keyword"
+msgid "image"
+msgstr "afbeelding"
+
+#: build/js/editor/block/block.json
+msgctxt "block description"
+msgid "One click photo uploads from Unsplash, Openverse, Pixabay and Pexels."
+msgstr "Eén-klik foto uploads van Unsplash, Openverse, Pixabay en Pexels."
+
+#: build/js/editor/block/block.json
+msgctxt "block title"
+msgid "Instant Images"
+msgstr "Instant Images"
+
+#: instant-images.php:418
+msgid "Switch the default provider in the Instant Images settings or check that you're using a valid API key."
+msgstr "Verander de standaard provider in de Instant Images instellingen of controleer of je een geldige API-sleutel gebruikt."
+
+#: admin/includes/settings/licenses.php:13
+msgid "Enter add-on license keys to enable plugin functionality and dashboard updates."
+msgstr "Voer add-on licentiecodes in om de functionaliteit van de plugin en dashboard updates mogelijk te maken."
+
+#: admin/includes/settings/licenses.php:12
+msgid "Licenses"
+msgstr "Licenties"
+
+#: admin/includes/settings/api-settings.php:14
+msgid "Leave these fields empty to restore the default plugin keys."
+msgstr "Laat deze velden leeg om de standaard plugin sleutels terug te zetten."
+
+#: admin/includes/settings/api-settings.php:12
+msgid "API Keys (Providers)"
+msgstr "API-sleutels (aanbieders)"
+
+#: admin/includes/settings.php:236
+msgid "Remove the Instant Images tab in the Media Modal."
+msgstr "Verwijder de tab Instant Images in de media modal."
+
+#: admin/admin.php:318 admin/includes/header.php:19
+#: admin/includes/settings/header.php:18 instant-images.php:528
+msgid "Browse Add-ons"
+msgstr "Blader door add-ons"
+
+#: admin/admin.php:314
+msgid "You do not have any Instant Images add-ons installed."
+msgstr "Je hebt geen Instant Images add-ons geïnstalleerd."
+
+#: admin/admin.php:299
+msgid "Activate License"
+msgstr "Activeer licentie"
+
+#: admin/admin.php:297
+msgid "Deactivate License"
+msgstr "Deactiveer licentie"
+
+#: admin/admin.php:291
+msgid "Purchase License"
+msgstr "Koop licentie"
+
+#: admin/admin.php:291
+msgid "Valid License Key Required"
+msgstr "Geldige licentiesleutel vereist"
+
+#: admin/admin.php:282
+msgid "Enter License Key"
+msgstr "Voer licentiesleutel in"
+
+#: api/settings.php:63
+msgid "Unable to save settings."
+msgstr "Kan instellingen niet opslaan."
+
+#: api/settings.php:57
+msgid "Settings saved."
+msgstr "Instellingen opgeslagen."
+
+#: admin/includes/settings/whats-new.php:13
+msgid "The latest Instant Images news, features and updates."
+msgstr "Het laatste Instant Images nieuws, functies en updates."
+
+#: admin/includes/settings/api-settings.php:13
+msgid "Replace the default Instant Images API keys with your own."
+msgstr "Vervang de standaard Instant Images API-sleutels door je eigen sleutels."
+
+#: admin/includes/settings/general-settings.php:13
+msgid "Manage your Instant Images plugin settings."
+msgstr "Beheer de instellingen van je Instant Images plugin."
+
+#: admin/includes/settings/header.php:29
+msgid "Plugin Version:"
+msgstr "Plugin versie:"
+
+#: admin/includes/settings/header.php:26
+msgid "Jump to Section"
+msgstr "Ga naar sectie"
+
+#: admin/includes/settings/header.php:21 instant-images.php:527
+msgid "Get Images"
+msgstr "Verkrijg afbeeldingen"
+
+#: admin/includes/settings.php:152
+msgid "Manage your provider API keys."
+msgstr "Beheer je provider API-sleutel."
+
+#: admin/includes/settings.php:30
+#: admin/includes/settings/general-settings.php:12
+msgid "General Settings"
+msgstr "Algemene instellingen"
+
+#: admin/includes/settings/save.php:14
+msgid "Settings Saved"
+msgstr "Instellingen opgeslagen"
+
+#: api/download.php:147
+msgid "Attachment file not found prior to upload."
+msgstr "Bijlagebestand niet gevonden voor het uploaden."
+
+#: admin/includes/settings.php:222
+msgid "Automatically add image attribution (as captions) when uploading images."
+msgstr "Automatisch afbeelding bijdrage toevoegen (als bijschriften) bij het uploaden van afbeeldingen."
+
+#: admin/includes/settings.php:221
+msgid "Image Attribution"
+msgstr "Afbeelding bijdrage"
+
+#: admin/includes/settings.php:65
+msgid "Auto Captions/Attribution"
+msgstr "Automatische bijschriften/bijdrage"
+
+#: instant-images.php:399
+msgid "Description"
+msgstr "Beschrijving"
+
+#: instant-images.php:392
+msgid "View on"
+msgstr "Bekijk op"
+
+#: api/download.php:107
+msgid "Image file does not exist on remote server or there was an error accessing the file."
+msgstr "Afbeeldingbestand bestaat niet op de externe server of er was een fout bij de toegang tot het bestand."
+
+#. translators: File extension.
+#: api/download.php:100
+msgid "File mime type (.%1$s) is not allowed. Use the `upload_mimes` WP hook to add support for this mime type."
+msgstr "Bestand mime type (.%1$s) is niet toegestaan. Gebruik de `upload_mimes` WP hook om ondersteuning voor dit mime type toe te voegen."
+
+#: instant-images.php:425
+msgid "Advertisement"
+msgstr "Advertentie"
+
+#: instant-images.php:424
+msgid "Ad"
+msgstr "Ad"
+
+#: instant-images.php:423
+msgid "Error"
+msgstr "Fout"
+
+#: instant-images.php:422
+msgid "Check your API keys are valid and the Default Provider set under the Instant Images settings panel."
+msgstr "Controleer of je API-sleutels geldig zijn en of de standaardprovider is ingesteld onder het instellingen paneel Instant Images."
+
+#: instant-images.php:421
+msgid "An unknown error has occured while accessing {provider}"
+msgstr "Er is een onbekende fout opgetreden bij het openen van {provider}"
+
+#: instant-images.php:420
+msgid "Reset Default Key"
+msgstr "Standaardtoets resetten"
+
+#: instant-images.php:419
+msgid "Get API Key"
+msgstr "Verkrijg API-sleutel"
+
+#: instant-images.php:417
+msgid "The API rate limit has been exceeded for this image provider. Please add a new API key or try again later."
+msgstr "Het API snelheidslimiet is overschreden voor deze afbeelding aanbieder. Voeg een nieuwe API-sleutel toe of probeer het later opnieuw."
+
+#: instant-images.php:416
+msgid "No image provider or destination URL set."
+msgstr "Geen afbeeldingsprovider of bestemmings URL ingesteld."
+
+#: instant-images.php:415
+msgid "An internal server error has occured - please try again."
+msgstr "Er is een interne serverfout opgetreden - probeer het opnieuw."
+
+#: instant-images.php:414
+msgid "The Instant Images Proxy is not configured for the requested provider."
+msgstr "De Instant Images proxy is niet geconfigureerd voor de aangevraagde provider."
+
+#: instant-images.php:413
+msgid "Missing API parameter - we are unable to complete the request at this time."
+msgstr "Ontbrekende API-parameter - we kunnen de aanvraag momenteel niet voltooien."
+
+#: instant-images.php:411
+msgid "API key has been successfully validated!"
+msgstr "API-sleutel is succesvol gevalideerd!"
+
+#: instant-images.php:410
+msgid "The API Key is Invalid"
+msgstr "De API-sleutel is ongeldig"
+
+#: instant-images.php:409
+msgid "Enter API Key"
+msgstr "API-sleutel invoeren"
+
+#: instant-images.php:408
+msgid "Verify"
+msgstr "Verifiëren"
+
+#: instant-images.php:407
+msgid "Close"
+msgstr "Sluiten"
+
+#: instant-images.php:406
+msgid "Close Window"
+msgstr "Venster sluiten"
+
+#: instant-images.php:405
+msgid "Add Photo Attribution"
+msgstr "Fototoeschrijving toevoegen"
+
+#: instant-images.php:391
+msgid "Clear Search"
+msgstr "Zoekopdracht wissen"
+
+#: instant-images.php:389
+msgid "Search"
+msgstr "Zoeken"
+
+#: instant-images.php:387
+msgid "Downloads"
+msgstr "Downloads"
+
+#: instant-images.php:386
+msgid "Views"
+msgstr "Weergaven"
+
+#: instant-images.php:381
+msgid "Try adjusting your filter criteria or searching again."
+msgstr "Probeer je filter criteria aan te passen of zoek opnieuw."
+
+#: instant-images.php:380
+msgid "Nothing matched your search query."
+msgstr "Er kwam niets overeen met je zoekopdracht."
+
+#: instant-images.php:363
+msgid "Access to images from Pexels requires a valid API key. API keys are available for free, just sign up for an account at Pexels, enter your API key below and you're good to go!"
+msgstr "Voor toegang tot afbeeldingen van Pexels is een geldige API-sleutel vereist. API-sleutels zijn gratis beschikbaar, meld je gewoon aan voor een account bij Pexels, voer hieronder je API-sleutel in en je bent klaar om te gaan!"
+
+#: instant-images.php:358
+msgid "Access to images from Pixabay requires a valid API key. API keys are available for free, just sign up for an account at Pixabay, enter your API key below and you're good to go!"
+msgstr "Voor toegang tot afbeeldingen van Pixabay is een geldige API-sleutel vereist. API-sleutels zijn gratis beschikbaar, meld je gewoon aan voor een account bij Pixabay, voer hieronder je API-sleutel in en je bent klaar om te gaan!"
+
+#: instant-images.php:353
+msgid "Access to images from Unsplash requires a valid API key. API keys are available for free, just sign up for a Developer account at Unsplash, enter your API key below and you're good to go!"
+msgstr "Toegang tot afbeeldingen van Unsplash vereist een geldige API-sleutel. API-sleutels zijn gratis beschikbaar, meld je gewoon aan voor een developer account bij Unsplash, voer hieronder je API-sleutel in en je bent klaar om te gaan!"
+
+#: api/download.php:42
+msgid "You do not have sufficient access to upload images with Instant Images."
+msgstr "Je hebt niet voldoende toegang om afbeeldingen te uploaden met Instant Images."
+
+#. translators: Instant Images tagline.
+#: instant-images.php:513
+msgid "One-click photo uploads from %1$s, %2$s, %3$s, %4$s, and %5$s."
+msgstr "Een-klik foto uploads van %1$s, %2$s, %3$s, %4$s en %5$s."
+
+#: admin/includes/settings.php:332
+msgid "API key has been set via site constant."
+msgstr "API-sleutel is ingesteld via site constante."
+
+#: admin/includes/settings.php:327
+msgid "Get Key"
+msgstr "Verkrijg sleutel"
+
+#: admin/includes/settings.php:93
+msgid "API Keys"
+msgstr "API-sleutels"
+
+#: admin/includes/settings.php:282
+msgid "Default Provider"
+msgstr "Standaard provider"
+
+#: admin/includes/settings.php:235
+msgid "Media Modal"
+msgstr "Media modal"
+
+#: admin/includes/settings.php:74
+msgid "Media Tab"
+msgstr "Media tab"
+
+#: admin/includes/settings.php:110 admin/includes/settings.php:326
+msgid "API Key"
+msgstr "API-sleutel"
+
+#: admin/includes/settings.php:56
+msgid "Default Image Provider"
+msgstr "Standaard afbeeldingsaanbieder"
+
+#: admin/includes/settings/our-plugins.php:14
+msgid "Check out some of our other WordPress plugins."
+msgstr "Bekijk enkele van onze andere WordPress plugins."
+
+#. Description of the plugin
+#: instant-images.php
+msgid "One-click image uploads directly to your media library from Unsplash, Openverse, Pixabay and Pexels."
+msgstr "Met één klik afbeeldingen uploaden rechtstreeks naar je mediabibliotheek van Unsplash,  Openverse, Pixabay en Pexels."
+
+#: instant-images.php:400
+msgid "Edit Attachment Details"
+msgstr "Bewerk bijlagedetails"
+
+#: instant-images.php:379
+msgid "Still resizing..."
+msgstr "Nog bezig met grootte wijzigen..."
+
+#: instant-images.php:378
+msgid "Creating image sizes..."
+msgstr "Afbeeldingsgrootten maken..."
+
+#: instant-images.php:372
+msgid "Instant Images requires access to the WP REST API via <u>POST</u> request to fetch and upload images to your media library."
+msgstr "Instant Images vereist toegang tot de WP REST API via <u>POST</u> aanvraag om afbeeldingen op te halen en te uploaden naar je mediabibliotheek."
+
+#: instant-images.php:371
+msgid "There was an error accessing the WP REST API."
+msgstr "Er is een fout opgetreden bij het openen van de WP REST API."
+
+#: instant-images.php:370
+msgid "There was no response while attempting to the download image to your server. Check your server permission and max file upload size or try again"
+msgstr "Er was geen reactie bij het downloaden van de afbeelding naar je server. Controleer je server toestemming en maximale bestand upload grootte of probeer het opnieuw"
+
+#: api/download.php:206
+msgid "There was an error getting image details from the request, please try again."
+msgstr "Er is een fout opgetreden bij het ophalen van de details van de afbeelding in de aanvraag, probeer opnieuw."
+
+#: api/download.php:131
+msgid "Image type could not be determined."
+msgstr "Afbeeldingstype kon niet worden bepaald."
+
+#: api/download.php:125
+msgid "Image download failed, please try again. Errors:"
+msgstr "Downloaden van afbeelding mislukt, probeer het opnieuw. Fouten:"
+
+#: instant-images.php:404
+msgid "Upload"
+msgstr "Uploaden"
+
+#: instant-images.php:396
+msgid "Title"
+msgstr "Titel"
+
+#: instant-images.php:394
+msgid "Insert Into Post"
+msgstr "Invoegen in bericht"
+
+#: instant-images.php:393
+msgid "Set as Featured Image"
+msgstr "Instellen als uitgelichte afbeelding"
+
+#: instant-images.php:388
+msgid "Search for Toronto + Coffee etc..."
+msgstr "Zoeken naar Toronto + koffie enz..."
+
+#: instant-images.php:403
+msgid "Save"
+msgstr "Opslaan"
+
+#: instant-images.php:402
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: instant-images.php:401
+msgid "Edit Image Details"
+msgstr "Bewerk afbeeldingsdetails"
+
+#: instant-images.php:398
+msgid "Caption"
+msgstr "Bijschrift"
+
+#: instant-images.php:397
+msgid "Alt Text"
+msgstr "Alt-tekst"
+
+#: instant-images.php:395
+msgid "Filename"
+msgstr "Bestandsnaam"
+
+#: instant-images.php:376
+msgid "Click to Upload"
+msgstr "Klik om te uploaden"
+
+#: admin/includes/settings/whats-new.php:12
+msgid "What's New"
+msgstr "Wat is er nieuw"
+
+#. Author URI of the plugin
+#: instant-images.php
+msgid "https://connekthq.com"
+msgstr "https://connekthq.com"
+
+#. Author of the plugin
+#: instant-images.php
+msgid "Darren Cooney"
+msgstr "Darren Cooney"
+
+#. Plugin URI of the plugin
+#: instant-images.php
+msgid "https://connekthq.com/plugins/instant-images/"
+msgstr "https://connekthq.com/plugins/instant-images/"
+
+#. Plugin Name of the plugin
+#: instant-images.php admin/admin.php:152 admin/admin.php:169
+#: instant-images.php:337
+msgid "Instant Images"
+msgstr "Instant Images"
+
+#: api/download.php:189
+msgid "Image successfully uploaded to the media library!"
+msgstr "Afbeelding succesvol geüpload in de mediabibliotheek!"
+
+#: admin/includes/header.php:22 instant-images.php:529
+msgid "Settings"
+msgstr "Instellingen"
+
+#: admin/includes/settings/our-plugins.php:13
+msgid "Our Plugins"
+msgstr "Onze plugins"
+
+#: admin/includes/settings/save.php:10
+msgid "Save Settings"
+msgstr "Instellingen opslaan"
+
+#: admin/includes/settings.php:209
+msgid "Max Image Upload Height"
+msgstr "Max. upload hoogte afbeelding"
+
+#: admin/includes/settings.php:193
+msgid "Max Image Upload Width"
+msgstr "Max. upload breedte afbeelding"
+
+#: admin/includes/settings.php:142
+msgid "Manage your media upload settings."
+msgstr "Beheer je instellingen voor het uploaden van media."
+
+#: admin/includes/settings.php:47
+msgid "Upload Image Height"
+msgstr "Upload afbeelding hoogte"
+
+#: admin/includes/settings.php:38
+msgid "Upload Image Width"
+msgstr "Upload afbeelding breedte"
+
+#: instant-images.php:390
+msgid "image(s) found for"
+msgstr "afbeelding(en) gevonden voor"
+
+#: instant-images.php:385 build/block/index.js:1 build/instant-images.js:1
+#: build/media-modal/index.js:1 build/plugin-sidebar/index.js:1
+msgid "Popular"
+msgstr "Populair"
+
+#: instant-images.php:384
+msgid "Oldest"
+msgstr "Oudste"
+
+#: instant-images.php:382 instant-images.php:383
+msgid "New"
+msgstr "Nieuw"
+
+#: instant-images.php:377
+msgid "Downloading image..."
+msgstr "Afbeelding downloaden..."
+
+#: instant-images.php:375
+msgid "Click Image to Upload"
+msgstr "Klik op afbeelding om te uploaden"
+
+#: instant-images.php:374
+msgid "View All Photos by"
+msgstr "Alle foto's bekijken van"

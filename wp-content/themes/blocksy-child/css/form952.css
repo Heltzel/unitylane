@@ -1,0 +1,182 @@
+/* ===== Algemene instellingen ===== */
+#forminator-module-952 {
+  font-size: 20px !important;
+  line-height: 1.2 !important;
+}
+
+/* Forceer overal 20px font */
+#forminator-module-952,
+#forminator-module-952 label,
+#forminator-module-952 input,
+#forminator-module-952 .forminator-input-with-suffix span,
+#forminator-module-952 .forminator-button-submit {
+  font-size: 20px !important;
+  line-height: 1.2 !important;
+  text-transform: none !important;
+}
+
+/* ===== Rijen styling ultra compact + zebra stripes ===== */
+#forminator-module-952 .forminator-row:nth-of-type(odd) {
+  background-color: #f1f1f1;
+}
+#forminator-module-952 .forminator-row:nth-of-type(even) {
+  background-color: #e0e0e0;
+}
+#forminator-module-952 .forminator-row {
+  margin: 0 !important;
+  padding: 2px 4px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+}
+
+/* ===== Currency fields: label links, input+EUR rechts ===== */
+.forminator-field-currency .forminator-field {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.forminator-field-currency label.forminator-label {
+  min-width: 120px;
+  margin: 0;
+  padding: 2px 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+.forminator-field-currency .forminator-input-with-suffix {
+  display: flex;
+  align-items: flex-end;
+  flex: 0 0 auto;
+  min-width: 0;
+}
+
+.forminator-field-currency input.forminator-input {
+  width: 100px !important;
+  flex: 0 0 auto;
+  padding: 2px 6px;
+  text-align: right !important;
+  border: none !important;
+  background: inherit;
+  box-sizing: border-box;
+}
+
+.forminator-field-currency
+  .forminator-input-with-suffix
+  span.forminator-suffix {
+  margin-left: 4px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/* ===== Calculation fields: label links, input rechts ===== */
+.forminator-field-calculation .forminator-field {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.forminator-field-calculation label.forminator-label {
+  white-space: nowrap;
+  min-width: 120px;
+  margin: 0;
+  padding: 2px 0;
+  display: flex;
+  align-items: flex-end;
+  color: var(--theme-palette-color-2);
+}
+
+.forminator-field-calculation input.forminator-input,
+.forminator-field-calculation .forminator-calculation-value {
+  width: 100px !important;
+  flex: 0 0 auto;
+  padding: 2px 6px;
+  text-align: right !important;
+  border: 1px solid #ccc !important;
+  background: #fff !important;
+  box-sizing: border-box;
+  font-weight: bold;
+  color: var(--theme-palette-color-2) !important;
+}
+
+/* ===== Description rechts uitlijnen ===== */
+#forminator-module-952 .forminator-description {
+  display: block !important;
+  text-align: right !important;
+  width: 100% !important;
+  margin: 2px 0 0 0 !important;
+}
+
+/* ===== Alle andere inputs standaard breed ===== */
+#forminator-module-952
+  .forminator-row
+  input.forminator-input:not(.forminator-calculation):not([type="currency"]),
+#forminator-module-952 .forminator-row select,
+#forminator-module-952 .forminator-row textarea {
+  width: 100% !important;
+  box-sizing: border-box;
+}
+
+/* ===== Submit button ===== */
+#forminator-module-952 .forminator-row.forminator-row-last {
+  justify-content: center;
+}
+
+#forminator-module-952 .forminator-button-submit {
+  background-color: #444;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  width: auto;
+  min-width: 120px;
+  margin-top: 5px;
+}
+
+#forminator-module-952 .forminator-button-submit:hover {
+  background-color: #222;
+}
+
+/* ===== Forminator break tekst kleur ===== */
+.forminator-break::before {
+  color: var(--theme-palette-color-1) !important;
+}
+
+.forminator-button {
+  padding: 8px 20px; /* standaard kan variëren per thema */
+  border-radius: 3px;
+  border: 1px solid transparent;
+}
+
+/* ===== Mobiel: labels boven input ===== */
+@media (max-width: 480px) {
+  #forminator-module-952 .forminator-row {
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  #forminator-module-952 label.forminator-label {
+    width: 100% !important;
+    text-align: left !important;
+    margin-bottom: 3px;
+  }
+  #forminator-module-952 .forminator-description {
+    width: 100% !important;
+    text-align: right !important;
+  }
+  #forminator-module-952 .forminator-input-with-suffix,
+  #forminator-module-952 input,
+  #forminator-module-952 select,
+  #forminator-module-952 textarea {
+    width: 100% !important;
+  }
+}
+#forminator-module-952 .forminator-button-submit,
+#forminator-module-952 .forminator-button-next,
+#forminator-module-952 .forminator-button-back {
+  cursor: pointer;
+}
