@@ -25,7 +25,7 @@ jQuery(document).ready(function ($) {
     return name; // fallback
   }
 
-  // Render verticale DataTable met volgorde behouden
+  // Render verticale DataTable met volgorde behouden en lege rijen voor hidden fields
   function renderVerticalTable() {
     const allData = window.getForminatorSessionData();
     if (!currentFormID) return;
@@ -35,15 +35,23 @@ jQuery(document).ready(function ($) {
 
     // Volgorde van velden uit eerste submit behouden
     const firstEntry = filteredData[0];
-    const labels = Object.keys(firstEntry).filter((k) => k !== "form_id");
+    const fieldKeys = Object.keys(firstEntry).filter((k) => k !== "form_id");
 
-    // Transponeer data: rijen = labels, kolommen = submit entries
-    const tableData = labels.map((label) => {
-      const row = { label };
-      filteredData.forEach((entry, i) => {
-        row["submit" + (i + 1)] = entry[label] || "";
-      });
-      return row;
+    const tableData = [];
+
+    fieldKeys.forEach((key) => {
+      // Detecteer hidden fields (key begint met 'hidden' of 'hidde')
+      if (/^hidde?n?-\d+$/i.test(key)) {
+        // Voeg twee lege rijen toe
+        tableData.push({ label: "", submit1: "" });
+        tableData.push({ label: "", submit1: "" });
+      } else {
+        const row = { label: key };
+        filteredData.forEach((entry, i) => {
+          row["submit" + (i + 1)] = entry[key] || "";
+        });
+        tableData.push(row);
+      }
     });
 
     // Dynamische kolommen
@@ -60,7 +68,7 @@ jQuery(document).ready(function ($) {
       dom: "Bfrtip",
       buttons: ["copy", "excel", "csv", "pdf", "print"],
       paging: false,
-      searching: false,
+      searching: true,
       ordering: false,
       info: false,
     });
